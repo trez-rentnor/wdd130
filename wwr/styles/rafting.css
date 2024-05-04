@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #222A68;
+    --secondary-color: #5296A5;
+    --accent1-color: #ED6A5A;
+    --accent2-color: #FFBA08;
+
+    --heading-font: 'Rokkitt', serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #222A68;
+    --nav-link-color: #5296A5;
+    --nav-hover-link-color: #ED6A5A;
+    --nav-hover-background-color: #FFBA08;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 800px;
+}
+
+nav img {
+    height: 80px;
+    width: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #FFFFFF88;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.hero article {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    background-color: rgba(256,256,256,0.6);
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    height: 40px;
+}
