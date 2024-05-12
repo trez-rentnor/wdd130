@@ -41,7 +41,6 @@ p {
 
 main {
     margin: 1rem;
-    grid-template-columns: 1fr 2fr;
 }
 
 aside {
@@ -59,7 +58,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 120px;
+    left: 70px;
 }
 
 header, .grid, footer {
@@ -68,9 +67,9 @@ header, .grid, footer {
 }
 
 .grid {
-    display: flex;
+    display: grid;
     align-items: center;
-    flex-direction: row-reverse;
+    grid-template-columns: 1fr 2fr;
 }
 
 footer {
