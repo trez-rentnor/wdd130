@@ -1,0 +1,16 @@
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+fieldset {
+    background-color: lightgray;
+    max-width: 500px;
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
