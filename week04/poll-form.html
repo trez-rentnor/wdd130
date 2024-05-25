@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Randy Jones | WDD 130</title>
+        <meta name="description" content="Week 4 Activity - Poll Form">
+        <meta name="author" content="Randy Jones">
+        <link rel="stylesheet" href="styles/poll-form.css">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Randy Jones | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <br>
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite broswer?</label>
+                    <select name="browser" id="browser">
+                        <option value="netscape">Netscape</option>
+                        <option value="chrome" selected>Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                    </select>
+                    <br>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <br>
+                    <label for="locations">What are the places where you have lived?</label>
+                    <textarea id="locations" name="locations">Rexburg, ID</textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy;2024 | HTML Form - User Poll Activity | Randy Jones</p>
+        </footer>
+    </body>
+</html>
