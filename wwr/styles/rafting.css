@@ -176,6 +176,10 @@ section {
     margin-top: 1rem;
 }
 
+iframe {
+    border:0;
+}
+
 .contact-info iframe {
     height: 10rem;
     width: 10rem;
