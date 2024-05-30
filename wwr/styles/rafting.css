@@ -135,12 +135,13 @@ section {
     margin: 2rem 0 0 1rem;
 }
 
-.index-content-cell formset {
+.index-content-cell fieldset {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 2.5rem 2.5rem 1rem;
     justify-content: center;
+    border: 0;
 }
 
 .index-content-cell label {
