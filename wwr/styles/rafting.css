@@ -135,7 +135,7 @@ section {
     margin: 2rem 0 0 1rem;
 }
 
-.index-content-cell fieldset {
+.index-content-cell #email-signup {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
